@@ -8,7 +8,8 @@
 
     <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-app.js"></script>
 
-    <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-analytics.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-database.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-database.js"></script>
 
     <link
       href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap"
@@ -60,7 +61,9 @@
             placeholder="Enter Room Name Here"
           />
         </div>
-        <button class="btn btn-success fs-5 mb-2">Create Room</button>
+        <button class="btn btn-success fs-5 mb-2" onclick="addRoomName()">
+          Create Room
+        </button>
         <h3 class="color_white text-warning">#TRENDINGROOMS</h3>
         <div id="output"></div>
       </center>
